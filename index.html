@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet Grooming Store</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                Logo
+            </div>
+            <div class="nav-links">
+                <a href="#home" class="active">Home</a>
+                <a href="#services">Services</a>
+                <a href="#products">Products</a>
+                <a href="#about">About Us</a>
+                <a href="#testimonials">Testimonials</a>
+                <button class="contact-btn" onclick="location.href='#contact'">Contact Us</button>
+            </div>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1>Pamper Your Pets – Grooming Gear They'll Actually Like</h1>
+                <p>Brushes, shampoos and more to keep that cutie looking fresh (and feeling amazing!)</p>
+                <div class="hero-buttons">
+                    <button class="primary-btn" onclick="location.href='#products'">Shop Pet Grooming</button>
+                    <button class="secondary-btn" onclick="location.href='#services'">Our Services</button>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="https://images.unsplash.com/photo-1548199973-03cce0bbc87b?w=600" alt="Happy Golden Retriever">
+            </div>
+        </section>
+
+        <section id="services" class="services">
+            <div class="section-header">
+                <h2>Our Premium Services</h2>
+                <p>Professional care for your beloved pets</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-bath"></i>
+                    </div>
+                    <h3>Full Grooming</h3>
+                    <p>Complete bath, haircut, and style for all breeds</p>
+                    <a href="#contact" class="service-link">Book Now <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-cut"></i>
+                    </div>
+                    <h3>Nail Trimming</h3>
+                    <p>Professional nail care and paw maintenance</p>
+                    <a href="#contact" class="service-link">Book Now <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <h3>Spa Treatment</h3>
+                    <p>Relaxing massage and premium coat treatment</p>
+                    <a href="#contact" class="service-link">Book Now <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </section>
+
+        <section id="products" class="categories">
+            <div class="section-header">
+                <h2>Shop By Category</h2>
+                <p>Find the perfect grooming products for your pet</p>
+            </div>
+            <div class="category-grid">
+                <div class="category-card">
+                    <img src="https://images.unsplash.com/photo-1583512603866-910c8542ba1b?w=300" alt="Brushes">
+                    <h3>Brushes</h3>
+                    <p>Professional grooming brushes for all coat types</p>
+                    <button class="shop-now-btn">Shop Now</button>
+                </div>
+                <div class="category-card">
+                    <img src="https://images.unsplash.com/photo-1584473457406-6240486418e9?w=300" alt="Shampoos">
+                    <h3>Shampoos</h3>
+                    <p>Natural and gentle cleansing products</p>
+                    <button class="shop-now-btn">Shop Now</button>
+                </div>
+                <div class="category-card">
+                    <img src="https://images.unsplash.com/photo-1591946614720-90a587da4a36?w=300" alt="Nail Clippers">
+                    <h3>Nail Care</h3>
+                    <p>Safe and effective nail grooming tools</p>
+                    <button class="shop-now-btn">Shop Now</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>About Our Store</h2>
+                    <p>We're passionate about providing the best grooming experience for your pets. With years of expertise and a love for animals, we carefully select premium products that make grooming enjoyable for both pets and their owners.</p>
+                    <div class="about-features">
+                        <div class="feature">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Premium Quality Products</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Expert Grooming Advice</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-check-circle"></i>
+                            <span>100% Satisfaction Guarantee</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="https://images.unsplash.com/photo-1587764379873-97837921fd44?w=600" alt="Pet Grooming Store">
+                </div>
+            </div>
+        </section>
+
+        <section id="testimonials" class="testimonials">
+            <div class="section-header">
+                <h2>What Pet Parents Say</h2>
+                <p>Real experiences from our happy customers</p>
+            </div>
+            <div class="testimonials-slider">
+                <div class="testimonial-card">
+                    <div class="testimonial-image">
+                        <img src="https://images.unsplash.com/photo-1583511655857-d19b40a7a54e?w=200" alt="Happy Dog">
+                    </div>
+                    <p class="testimonial-text">"The grooming products are amazing! My dog's coat has never looked better."</p>
+                    <div class="testimonial-author">
+                        <h4>Sarah & Max</h4>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+                <!-- Add more testimonial cards here -->
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h2>Get In Touch</h2>
+                    <p>We'd love to hear from you! Contact us for any questions about our products or services.</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>123 Pet Street, NY 10001</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <span>+1 234 567 8900</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>info@petgrooming.com</span>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <div class="footer-logo">
+                   
+                    <h3>Pet Grooming Store</h3>
+                </div>
+                <p>Your one-stop destination for premium pet grooming supplies and expert care advice.</p>
+                <div class="social-links">
+                    <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Shop</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Categories</h4>
+                <ul>
+                    <li><a href="#">Brushes & Combs</a></li>
+                    <li><a href="#">Shampoos</a></li>
+                    <li><a href="#">Nail Care</a></li>
+                    <li><a href="#">Accessories</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Contact Info</h4>
+                <ul class="contact-info">
+                    <li><i class="fas fa-map-marker-alt"></i> 123 Pet Street, NY 10001</li>
+                    <li><i class="fas fa-phone"></i> +1 234 567 8900</li>
+                    <li><i class="fas fa-envelope"></i> info@petgrooming.com</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Pet Grooming Store. All rights reserved.</p>
+            <div class="footer-bottom-links">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Service</a>
+                <a href="#">Shipping Info</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
